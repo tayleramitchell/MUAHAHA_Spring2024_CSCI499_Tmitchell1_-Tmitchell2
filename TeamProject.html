@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="TeamProject.css">
-    <script src="Teamproject.js" type="text/javascript"></script>  
+    <script src="Teamproject.js" ></script>  
 
     <title> Trois Pour Trois</title>
     <body>
@@ -22,9 +22,11 @@
     <a href="TeamProject.html">Home</a>
     <a href="Services.html">Services</a>
     <a href="contact.html">Contact</a> 
-    <div class="size">
-        <input type="button" value="Text Size" style="float:right">   
-    </div>
+    <button onclick=" changeBackgroundColor()" style="float:right">Change Color </button>  
+    <button id="increaseButton" style="float:right">Increase </button>
+    <button id="decreaseButton" style="float:right">Decrease </button>
+
+    
 <div class="container">
   <!-- Dropdown Button -->
   <div class="dropdown">
@@ -60,26 +62,26 @@
         </div>
         
         <div class="container">
-            <div class="About">
+            <div class="About" >
                 <h2>About Us</h2>
-                <p> Trois Pour Trois was founded in 2024 by Tayler Mitchell,Cameron Murphy & Ashanti Thomas. The name came from the bond of the owners and their dedication to make sure that each other succeeds in life. Their goal was to create a place that makes you forget everyday struggles but still be able to let loose and have fun.</p>
-                <p>Located in Saint-Tropez, this hotel is a primary beach front hotel with the luxury feel of high class france. With its own private beach & beach club, this hotel is the perfect getway from everyday life.</p>
+                <p id="text"> Trois Pour Trois was founded in 2024 by Tayler Mitchell,Cameron Murphy & Ashanti Thomas. The name came from the bond of the owners and their dedication to make sure that each other succeeds in life. Their goal was to create a place that makes you forget everyday struggles but still be able to let loose and have fun.</p>
+                <p id="text">Located in Saint-Tropez, this hotel is a primary beach front hotel with the luxury feel of high class france. With its own private beach & beach club, this hotel is the perfect getway from everyday life.</p>
             </div>
         </div>
 
 <body>
-    <div class="Text">
-    <div class="container">
+
+    <div class="container" >
         <h1>Contact Us</h1>
         
         <div class="contact-info">
             <h2>Contact Information</h2>
-            <p><strong>Address:</strong> 123 Main Street, Saint-Tropez, France</p>
-            <p><strong>Phone:</strong> +123 456 7890</p>
+            <p id="text"><strong>Address:</strong> 123 Main Street, Saint-Tropez, France</p>
+            <p id="text"><strong>Phone:</strong> +123 456 7890</p>
             <p><strong>Email:</strong> info@troishotel.com</p>
         </div>
 
-        <div class="contact-form">
+        <div class="contact-form" id="text">
             <h2>Send us a Message</h2>
             <form action="#" method="post">
                 <div>
@@ -108,4 +110,4 @@
             <p>&copy; 2024 Trois Pour Trois. All rights reserved.</p>
         </footer>
     </body>
-    </html>
+    </html> 
