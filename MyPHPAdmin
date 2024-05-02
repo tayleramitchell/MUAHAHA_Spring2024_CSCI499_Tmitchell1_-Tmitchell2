@@ -1,1 +1,65 @@
 http://localhost/phpmyadmin/index.php?route=/sql&db=Room+users&table=room_user___sheet1__1_&pos=0
+=======================================================================================================
+
+-- phpMyAdmin SQL Dump
+-- version 5.2.1
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: May 02, 2024 at 05:20 AM
+-- Server version: 10.4.28-MariaDB
+-- PHP Version: 8.2.4
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `Room users`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `room_user___sheet1__1_`
+--
+
+CREATE TABLE `room_user___sheet1__1_` (
+  `Name` varchar(18) DEFAULT NULL,
+  `Age` varchar(2) DEFAULT NULL,
+  `Gmail` varchar(30) DEFAULT NULL,
+  `Bday` varchar(10) DEFAULT NULL,
+  `Cell Num` varchar(12) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+
+--
+-- Dumping data for table `room_user___sheet1__1_`
+--
+
+INSERT INTO `room_user___sheet1__1_` (`Name`, `Age`, `Gmail`, `Bday`, `Cell Num`) VALUES
+('', '', '', '', ''),
+('Cameron williams', '21', 'cameron.williams2245@gmail.com', '01/01/1999', '228-555-2121'),
+('Ashanti Thang', '21', 'ashanti.thang1@gmail.com', '05/05/1999', '251-762-7712'),
+('Tayler Thangg ', '20', 'Tayler.thang2@gmail.com', '1/16/1997', '243-567-9811'),
+('Nevada Abraham', '22', 'nevada.abraham0@yahoo.com', '10/19/1998', '567-981-2367'),
+('Reggie richard', '32', 'reggie.richard99@gmial.com', '04/05/1980', '228-973-1111'),
+('Larry simpson', '20', 'larry.simpson44@gmail.com', '08/09/2000', '778-723-2110'),
+('Breland fitzgerald', '19', 'breland.fitzgerald@gmail.com', '07/21/2015', '854-234-8911'),
+('Jarret sims', '35', 'jarret.sims43@gmail.com', '07/02/2001', '873-442-9001'),
+('Ajana mcmillian', '18', 'ajana.mcmillian78@gmail.com', '02/23/1989', '843-411-8930'),
+('Cyline dior', '19', 'cyline.dior41@gmail.com', '05/14/2011', '900-752-8785'),
+('Brnet Fyez', '23', 'Brent.fyez99@gmail.com', '12/25/2022', '121-309-8767'),
+('Givieon sanders', '37', 'givieon.sanders21@gmail.com', '01/07/2003', '334-555-0302'),
+('Cameron Murphy', '45', 'cameron.murphy2021@gmail.com', '2024-05-04', '2283698277'),
+('sally lue', '32', 'sally.lue23@gmial.com', '2024-05-04', '223-456-7545');
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
